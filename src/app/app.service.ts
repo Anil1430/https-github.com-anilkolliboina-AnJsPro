@@ -6,7 +6,7 @@ import {cryptoCurrencies} from './localdata';
 import {mock} from './mockapi';
 import {Coin} from './coin';
 
-const API_BASE_URL = 'https://api.coinmarketcap.com/v1/';
+const API_BASE_URL = 'https://api.coinmarketcap.com/v1/ticker/?limit=10';
 const coins: Coin[] = [];
 @Injectable()
 export class AppService {
